@@ -1,3 +1,6 @@
+The files in this repository are modified to be able to run our own examples: simple addition, simple multiplication, our own euclidean metric and a comparison.
+
+
 # ABY
 
 ABY is a mixed-protocol two-party computation framework implemented as a C++ library. It aims to give developers fine-grained control over computation efficiency bby providing a mechanism for mixing protocols. 
