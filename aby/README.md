@@ -37,13 +37,6 @@ The circuit itself is defined at a relatively low level: `share` objects are
 manipulated by `gate` operations in a `Circuit`. 
 
 ## Running examples
-To run our examples, you'll need to generate input. We've written input
-generation scripts for `mult3`. It will tell you what the expected result is.
-Data is stored in the `ABY/src/examples/<ex>/data` directory.
-```
-$ python ~/ABY/src/examples/geninput.py -e <ex>
-Expected result: 621
-```
 
 Executables are in the `ABY/build/bin/` directory. 
 Two parties must run each example. 
@@ -55,12 +48,6 @@ $ ./bin/<ex>_test -r 0 & ./bin/<ex>_test -r 1
 Result: 621
 ```
 
-Notes: The `innerproduct` example was a sample program included with the ABY distribution and was not written by us. 
-We modified it slightly to read input from a file. Our version is called
-`innerprod`.
-
-We now have a crosstabs example, but it is a little buggy (fails when the
-number of bins is larger than the number of elements).
 
 ## Modifying examples
 Create a directory in `ABY/src/examples` for your example. Copy the
