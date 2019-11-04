@@ -1,8 +1,8 @@
 
-# get ABY
-git clone --recursive https://github.com/encryptogroup/ABY.git
+# get ABY with the examples of our semester project
+git clone -b eurecom --recursive https://github.com/llorencroma/ABY.git
 cd ABY
-git checkout -b MPCSOK 5535bf80541c09682d776fcebe7000213ecad25f
+git checkout -b eurecom 
 
 # copy our working examples 
 for EX in mult3 crosstabs innerprod
